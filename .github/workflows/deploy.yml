@@ -13,12 +13,6 @@ jobs:
       - name: Check out
         uses: actions/checkout@v3
 
-      - name: Download the useless dependiences
-        run: npm install
-
-      - name: Generate your content
-        run: npm run build
-
       - name: Publish
         uses: rayluo/github-pages-overwriter@v1.3
 
